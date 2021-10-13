@@ -6,5 +6,5 @@
 
 This is a web app i made when i learn NodeJS, ReactJS, MongoDB, ExpressJS
 
-And this is link to front-end: https://mern-web-app.netlify.app/ 
+And this is link to front-end: https://mern-web-app.netlify.app/.
 And this is link to repo of front-end: https://github.com/huydevct/MERN-front-end
