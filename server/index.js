@@ -18,7 +18,6 @@ app.get('/', (req,res) => {
     res.send("Hello to MERN API")
 })
 
-const CONNECTION_URL = 'mongodb+srv://huyctdev:huyctdev123@cluster0.zfyia.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
