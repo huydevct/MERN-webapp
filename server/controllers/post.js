@@ -31,6 +31,18 @@ export const getPostsBySearch = async (req,res,next) => {
   }
 }
 
+export const getPost = async (req,res,next) => {
+  const { id } = req.params;
+
+  try {
+    const post = await PostMessage.findById(id);
+
+    res.status(200).json(post);
+  } catch (error) {
+    res.status(404).json({ message: error.message });
+  }
+}
+
 export const createPost = async (req, res, next) => {
   const post = req.body;
 
